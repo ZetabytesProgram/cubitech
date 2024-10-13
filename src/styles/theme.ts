@@ -1,4 +1,4 @@
-import { Inter } from "@next/font/google";
+import { Inter, Merriweather } from "@next/font/google";
 import { createTheme } from "@mui/material";
 
 export const inter = Inter({
@@ -7,6 +7,13 @@ export const inter = Inter({
   display: "swap",
   fallback: ["Helvetica", "Arial", "sans-serif"],
 });
+
+export const merriWeather = Merriweather({
+  weight: ["300", "400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  fallback: ["Helvetica", "Arial", "sans-serif"],
+})
 
 const theme = createTheme({
   palette: {
