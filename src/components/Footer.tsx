@@ -44,7 +44,7 @@ const Footer: React.FC<any> = () => {
           <Typography fontWeight={600}>Consumers</Typography>
           <Link href={"/cubifood"}><Typography>CubiFood</Typography></Link>
           <Link href={"/cubimart"}><Typography>CubiMart</Typography></Link>
-          <Typography>CubiRide</Typography>
+          <Link href={"/cubiride"}><Typography>CubiRide</Typography></Link>
           <Typography>CubiPerk</Typography>
         </Grid>
         <Grid item xs={3}>
