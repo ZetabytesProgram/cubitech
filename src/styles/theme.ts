@@ -18,9 +18,9 @@ export const merriWeather = Merriweather({
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#0b4bac",
-      light: "#e7f0fd",
-      dark: "#062a60",
+      main: "#0058cc",
+      light: "#e6f1ff",
+      dark: "#00214d",
     },
   },
   typography: {
