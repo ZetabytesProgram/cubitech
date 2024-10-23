@@ -1,7 +1,6 @@
 import CategorisedView from "@/components/CategorisedView";
 import CubiMartBargainBlitz from "@/components/CubiMartBargainBlitz";
 import CubiMartCategories from "@/components/CubiMartCategories";
-import Promotions from "@/components/Promotions";
 import { merriWeather } from "@/styles/theme";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
