@@ -15,6 +15,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   // { label: labelName, path: path }
+  { label: "About Us", path: "/about" },
 ];
 
 const Navbar: React.FC<any> = () => {
