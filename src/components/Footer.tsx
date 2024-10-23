@@ -45,7 +45,9 @@ const Footer: React.FC<any> = () => {
           <Link href={"/cubifood"}>
             <Typography>CubiFood</Typography>
           </Link>
-          <Typography>CubiMart</Typography>
+          <Link href={"/cubimart"}>
+            <Typography>CubiMart</Typography>
+          </Link>
           <Typography>CubiRide</Typography>
           <Typography>CubiPay</Typography>
           <Typography>CubiPerk</Typography>
