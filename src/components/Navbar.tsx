@@ -19,6 +19,7 @@ const navItems: NavItem[] = [
   { label: "CubiFood", path: "/cubifood" },
   { label: "CubiMart", path: "/cubimart" },
   { label: "CubiRide", path: "/cubiride" },
+  { label: "CubiPay", path: "/cubipay" },
 ];
 
 const Navbar: React.FC<any> = () => {

@@ -195,11 +195,11 @@ const CubiRide: React.FC<any> = () => {
           color={"primary.main"}
           textAlign={"center"}
         >
-          <Typography variant={"h5"} fontWeight={600} marginBottom={"2.5%"}>
+          <Typography variant={"h5"} fontWeight={600}>
             Why choose CubiRide?
           </Typography>
 
-          <Grid container>
+          <Grid container paddingY={"2.5%"}>
             {cubirideAvatars.map((avatar, index) => (
               <Grid
                 item
@@ -217,7 +217,7 @@ const CubiRide: React.FC<any> = () => {
                   sx={{
                     width: avatar.width,
                     height: avatar.height,
-                    marginBottom: "1%",
+                    marginBottom: "2.5%",
                   }}
                   variant={"square"}
                 />
@@ -226,7 +226,7 @@ const CubiRide: React.FC<any> = () => {
                 </Typography>
                 <Typography
                   variant={"body1"}
-                  sx={{ width: "90%", marginX: "5%", marginY: "2.5%" }}
+                  sx={{ width: "90%", marginX: "5%", marginTop: "2.5%" }}
                   fontSize={16}
                 >
                   {avatar.descr}
@@ -244,16 +244,16 @@ const CubiRide: React.FC<any> = () => {
           color={"primary.main"}
           textAlign={"center"}
         >
-          <Typography variant={"h5"} fontWeight={600} marginBottom={"2.5%"}>
+          <Typography variant={"h5"} fontWeight={600}>
             CubiRide: A Ride for Every Need
           </Typography>
 
           {/* Everyday Rides block */}
-          <Box paddingY={"2.5%"}>
-            <Typography variant={"h5"} fontWeight={500} marginBottom={"1.5%"}>
+          <Box paddingY={"3%"}>
+            <Typography variant={"h5"} fontWeight={500}>
               Everyday Rides
             </Typography>
-            <Grid container>
+            <Grid container paddingY={"2.5%"}>
               {cubirideEverydayAvatars.map((avatar, index) => (
                 <Grid
                   item
@@ -271,6 +271,7 @@ const CubiRide: React.FC<any> = () => {
                     sx={{
                       width: avatar.width,
                       height: avatar.height,
+                      marginBottom: "2.5%",
                     }}
                     variant={"square"}
                   />
@@ -278,13 +279,12 @@ const CubiRide: React.FC<any> = () => {
                     variant={"h5"}
                     fontWeight={500}
                     fontSize={20}
-                    sx={{ marginTop: "5%" }}
                   >
                     {avatar.title}
                   </Typography>
                   <Typography
                     variant={"body1"}
-                    sx={{ width: "90%", marginX: "5%", marginY: "2%" }}
+                    sx={{ width: "90%", marginX: "5%", marginTop: "2.5%" }}
                     fontSize={16}
                   >
                     {avatar.descr}
@@ -295,11 +295,11 @@ const CubiRide: React.FC<any> = () => {
           </Box>
 
           {/* Premium Rides block */}
-          <Box paddingY={"2.5%"}>
-            <Typography variant={"h5"} fontWeight={500} marginBottom={"1.5%"}>
+          <Box paddingY={"3%"}>
+            <Typography variant={"h5"} fontWeight={500}>
               Premium Rides
             </Typography>
-            <Grid container>
+            <Grid container paddingY={"2.5%"}>
               {cubiridePremiumAvatars.map((avatar, index) => (
                 <Grid
                   item
@@ -317,6 +317,7 @@ const CubiRide: React.FC<any> = () => {
                     sx={{
                       width: avatar.width,
                       height: avatar.height,
+                      marginBottom: "2.5%",
                     }}
                     variant={"square"}
                   />
@@ -324,13 +325,12 @@ const CubiRide: React.FC<any> = () => {
                     variant={"h5"}
                     fontWeight={500}
                     fontSize={20}
-                    sx={{ marginTop: "5%" }}
                   >
                     {avatar.title}
                   </Typography>
                   <Typography
                     variant={"body1"}
-                    sx={{ width: "90%", marginX: "5%", marginY: "2%" }}
+                    sx={{ width: "90%", marginX: "5%", marginTop: "2.5%" }}
                     fontSize={16}
                   >
                     {avatar.descr}
@@ -352,7 +352,7 @@ const CubiRide: React.FC<any> = () => {
           <Typography variant={"h5"} fontWeight={600}>
             CubiRide Safety Pledge
           </Typography>
-          <Grid container>
+          <Grid container paddingY={"2.5%"}>
             {cubirideSafetyPledgeAvatars.map((avatar, index) => (
               <Grid
                 item
@@ -370,6 +370,7 @@ const CubiRide: React.FC<any> = () => {
                   sx={{
                     width: avatar.width,
                     height: avatar.height,
+                    marginBottom: "2.5%",
                   }}
                   variant={"square"}
                 />
@@ -378,7 +379,7 @@ const CubiRide: React.FC<any> = () => {
                 </Typography>
                 <Typography
                   variant={"body1"}
-                  sx={{ width: "90%", marginX: "5%", marginY: "2.5%" }}
+                  sx={{ width: "90%", marginX: "5%", marginTop: "2.5%" }}
                   fontSize={16}
                 >
                   {avatar.descr}
